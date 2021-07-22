@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+}
+#logo{
+    width: 59px;
+    height: 50px;
+    padding-right: 20px ;
+}
+#banner{
+    background-color: #2F2073;
+    color: #fff;
+    margin: 0px;
+    padding-left: 20px ;
+}
+#banner h1{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+#menu{
+    height:  30px;
+    margin: 0px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    height:  30px;
+    list-style-type: none;
+    background-color: #fffd;
+    overflow: hidden;/*la lista como bloque independiente*/
+    margin: 0;
+    padding: 0;
+}
+li a{/*Se aplicaran a los enlaces de la lista*/
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    float: left;/*flotar hacia la izq*/
+}
+li a:hover{
+    background-color: #ffafcc;
+}
+.imageHeader{
+    background-size: cover;
+    background-image: url(img/banner.jpg);
+    max-width: -webkit-fill-available;
+    height: 169px;
+    margin: 0px;
+}
