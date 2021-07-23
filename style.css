@@ -74,3 +74,43 @@ li a:hover{
     justify-content: space-around;
 }
 
+.section1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.section1 h2{
+    text-align: center;
+    color: #f2059f;
+}
+/*.imagenes-section1{
+    display: flex;
+    
+}*/
+
+.section1 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 12%;
+    padding: 10px;
+}
+.imagenes-section2{
+    display: flex;
+    justify-content: center;
+    
+}
+.imagenes-section2 img{
+    width: 350px;
+    height: 180px;
+    padding-left: 15px;
+}
+.imagenes-section3{
+    display: flex;
+    justify-content: center;
+}
+.imagenes-section3 img{
+    width: 350px;
+    height: 350px;
+}
+
