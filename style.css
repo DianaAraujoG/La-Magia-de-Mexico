@@ -1,5 +1,13 @@
+/*colores
+    -#f21628
+    -#f2059f
+    -#2f1073
+    -#05f2f2
+    -#04bf33*/
+
 body{
     margin: auto;
+    box-sizing: border-box;
 }
 #logo{
     width: 59px;
@@ -45,9 +53,24 @@ li a:hover{
     background-color: #ffafcc;
 }
 .imageHeader{
-    background-size: cover;
+    background-size: 100%;
     background-image: url(img/banner.jpg);
     max-width: -webkit-fill-available;
     height: 169px;
     margin: 0px;
 }
+.contenedor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.formulario{
+    background-color: #05f2f2;
+    width: 70%;
+    height: 50px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
