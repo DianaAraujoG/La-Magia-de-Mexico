@@ -8,6 +8,11 @@
 body{
     margin: auto;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+H1, H2{
+    font-family: 'Sansita', sans-serif;
+    font-size: 35px;
 }
 #logo{
     width: 59px;
@@ -29,6 +34,11 @@ body{
 #menu{
     height:  30px;
     margin: 0px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
 }
 ul{
     display: flex;
@@ -114,3 +124,14 @@ li a:hover{
     height: 350px;
 }
 
+.contenedor input{
+    background-color: #05f2f2;
+    border-bottom: solid black 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input:focus{
+    outline: none;
+}
