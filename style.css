@@ -17,7 +17,7 @@ H1, H2{
 #logo{
     width: 59px;
     height: 50px;
-    padding-right: 20px ;
+    padding-right: 20px;
 }
 #banner{
     background-color: #2F2073;
@@ -134,4 +134,19 @@ li a:hover{
 
 input:focus{
     outline: none;
+}
+
+.footer{
+    width: auto;
+    height: 80px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footer img{
+    width: 59px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 10px;
 }
