@@ -23,13 +23,15 @@ H1, H2{
     background-color: #2F2073;
     color: #fff;
     margin: 0px;
-    padding-left: 20px ;
+    padding-left: 20px;
+    height: 70px;
+    display: flex;
 }
 #banner h1{
     margin: 0px;
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 39px;
 }
 #menu{
     height:  30px;
@@ -38,12 +40,12 @@ H1, H2{
     border-bottom: solid black 1px;
     display: flex;
     justify-content: center;
-    font-weight: 500;
+    font-weight: 700;
 }
 ul{
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
     height:  30px;
     list-style-type: none;
     background-color: #fffd;
@@ -64,9 +66,11 @@ li a:hover{
 }
 .imageHeader{
     background-size: 100%;
-    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/pueblito.jpg);
     max-width: -webkit-fill-available;
-    height: 169px;
+    height: 380px;
     margin: 0px;
 }
 .contenedor{
