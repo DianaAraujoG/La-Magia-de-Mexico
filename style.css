@@ -1,31 +1,51 @@
+/*colores
+    -#f21628
+    -#f2059f
+    -#2f1073
+    -#05f2f2
+    -#04bf33*/
+
 body{
     margin: auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+H1, H2{
+    font-family: 'Sansita', sans-serif;
+    font-size: 35px;
 }
 #logo{
     width: 59px;
     height: 50px;
-    padding-right: 20px ;
+    padding-right: 20px;
 }
 #banner{
     background-color: #2F2073;
     color: #fff;
     margin: 0px;
-    padding-left: 20px ;
+    padding-left: 20px;
+    height: 70px;
+    display: flex;
 }
 #banner h1{
     margin: 0px;
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 39px;
 }
 #menu{
     height:  30px;
     margin: 0px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
 }
 ul{
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
     height:  30px;
     list-style-type: none;
     background-color: #fffd;
@@ -45,9 +65,141 @@ li a:hover{
     background-color: #ffafcc;
 }
 .imageHeader{
-    background-size: cover;
-    background-image: url(img/banner.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/pueblito.jpg);
     max-width: -webkit-fill-available;
-    height: 169px;
+    height: 380px;
     margin: 0px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.formulario{
+    background-color: #05f2f2;
+    width: 70%;
+    height: 50px;
+    /*border-radius: 10%;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.section1 h2{
+    text-align: center;
+    color: #f2059f;
+}
+/*.imagenes-section1{
+    display: flex;
+    
+}*/
+.imagenes-section1 img{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    margin-left:  10px;
+}
+.imagenes-section1 img:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+.section1 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 12%;
+    padding: 10px;
+}
+.imagenes-section2{
+    display: flex;
+    justify-content: center;
+    
+}
+.imagenes-section2 img{
+    width: 350px;
+    height: 180px;
+    padding-left: 15px;
+}
+.imagenes-section2 img{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    margin-left:  10px;
+}
+.imagenes-section2 img:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.imagenes-section3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.imagenes-section3 img{
+    width: 350px;
+    height: 350px;
+}
+.imagenes-section3 img{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    margin-left:  15px;
+}
+.imagenes-section3 img:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+.contenedor input{
+    background-color: #05f2f2;
+    border-bottom: solid black 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input:focus{
+    outline: none;/*para quitar la decoracion de los inputs*/
+}
+
+.footer{
+    width: auto;
+    height: 70px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0px;
+}
+.footer h2{
+    font-size: 30px;
+}
+.footer img{
+    width: 59px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.icon{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+.icon button{
+    border: none;
+    background-color: #C4C4C4;
+    color: black;
+    font-size: 40px;
+    border-radius: 50%;
+
 }
