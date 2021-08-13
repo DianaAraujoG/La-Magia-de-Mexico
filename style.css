@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Sansita:wght@700&display=swap');
 /*colores
     -#f21628
     -#f2059f
@@ -19,13 +20,17 @@ H1, H2{
     height: 50px;
     padding-right: 20px;
 }
+
 #banner{
     background-color: #2F2073;
-    color: #fff;
     margin: 0px;
     padding-left: 20px;
     height: 70px;
     display: flex;
+}
+#banner a{
+    text-decoration: none;
+    color: #fff;
 }
 #banner h1{
     margin: 0px;
@@ -73,6 +78,7 @@ li a:hover{
     height: 380px;
     margin: 0px;
 }
+
 .contenedor{
     width: 100%;
 }
@@ -99,10 +105,6 @@ li a:hover{
     text-align: center;
     color: #f2059f;
 }
-/*.imagenes-section1{
-    display: flex;
-    
-}*/
 .imagenes-section{
     display: flex;
     justify-content: center;
@@ -126,50 +128,6 @@ li a:hover{
     border-radius: 12%;
     padding: 10px;
 }
-@media screen and (max-width:600px){
-    .imagenes-section img{
-        width: 100%;
-        margin: 30px;
-    }
-    .imagenes-section img:nth-child(odd){
-        margin-top: 0px;
-        border: 5px solid #05f2f2;
-    }
-}
-
-/* 
-.imagenes-section2 img{
-    height: 180px;
-    padding-left: 15px;
-}
-.imagenes-section2 img{
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    transition: all 400ms ease-out;
-    margin-left:  10px;
-}
-.imagenes-section2 img:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-	transform: translateY(-3%);
-}
-.imagenes-section3{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
-    flex-wrap: wrap;
-}
-.imagenes-section3 img{
-    height: 350px;
-}
-.imagenes-section3 img{
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    transition: all 400ms ease-out;
-    margin-left:  15px;
-}
-.imagenes-section3 img:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-	transform: translateY(-3%);
-} */
-
 .contenedor input{
     background-color: #05f2f2;
     border-bottom: solid black 1px;
@@ -181,7 +139,69 @@ li a:hover{
 input:focus{
     outline: none;/*para quitar la decoracion de los inputs*/
 }
-
+/*--------------------------------------------------------------------Estilos Promociones*/
+.img-promo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/Promocioness.jpg);
+    max-width: -webkit-fill-available;
+    height: 25em;
+    margin: 0px;
+}
+.img-promo p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: rgba(196, 196, 196, 0.8);
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: normal;
+    padding: .2em;
+    margin: 0em !important;
+    
+}
+#promo-b1{
+    align-self: flex-start;
+    font-size: 4em;
+}
+#promo-b2{
+    line-height: 1em;
+    font-size: 2.8em;
+    width: 60%;
+}
+#promo-seccion{
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-flow: row wrap;
+    flex-basis: 21%; /* explanation below */
+}
+#promo-seccion img{
+    border-radius: 12px;
+    width: 16em;
+    height: 11em;
+}
+#promo-seccion p{
+    margin-top: 0em;
+    font-family: Sansita;
+    font-size: 1.4em;
+    text-align: center;
+    color: #2F1073;
+    margin-bottom: 2em;
+}
+#promo-seccion img:hover{
+    transform: scale(0.9);
+    border-radius: 1.8em;
+    border: solid .5em #05f2f2;;
+}
 .footer{
     width: auto;
     height: 70px;
@@ -216,4 +236,17 @@ input:focus{
     font-size: 40px;
     border-radius: 50%;
 
+}
+@media screen and (max-width:600px){
+    .imagenes-section img{
+        width: 100%;
+        margin: 30px;
+    }
+    .imagenes-section img:nth-child(odd){
+        margin-top: 0px;
+        border: 5px solid #05f2f2;
+    }
+    #promo-seccion{
+        flex-basis: 50%; /* explanation below */
+    }
 }
