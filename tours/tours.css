@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Sansita:wght@700&display=swap');
+
+body{
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+H1, H2{
+    font-family: 'Sansita', sans-serif;
+    font-size: 35px;
+}
+#logo{
+    width: 59px;
+    height: 50px;
+    padding-right: 20px;
+}
+
+#banner{
+    background-color: #2F2073;
+    margin: 0px;
+    padding-left: 20px;
+    height: 70px;
+    display: flex;
+}
+#banner a{
+    text-decoration: none;
+    color: #fff;
+}
+#banner h1{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 39px;
+}
+#menu{
+    height:  30px;
+    margin: 0px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height:  30px;
+    list-style-type: none;
+    background-color: #fffd;
+    overflow: hidden;/*la lista como bloque independiente*/
+    margin: 0;
+    padding: 0;
+}
+li a{/*Se aplicaran a los enlaces de la lista*/
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    float: left;/*flotar hacia la izq*/
+}
+li a:hover{
+    background-color: #ffafcc;
+}
+.imageHeader{
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/pueblito.jpg);
+    max-width: -webkit-fill-available;
+    height: 380px;
+    margin: 0px;
+}
+.img-promo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/Patzcuaro.jpg);
+    max-width: -webkit-fill-available;
+    height: 25em;
+    margin: 0px;
+}
+.img-promo p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: rgba(196, 196, 196, 0.8);
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: normal;
+    padding: .2em;
+    margin: 0em !important;
+    
+}
+#promo-b1{
+    align-self: flex-start;
+    font-size: 4em;
+}
+#promo-b1 p{
+    font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 72px;
+
+color: #000000;
+
+border: 2px solid #F2059F;
+}
+
+/*main*/
+#promo-seccion{
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-flow: row wrap;
+    flex-basis: 21%; /* explanation below */
+}
+#promo-seccion img{
+    border-radius: 12px;
+    width: 16em;
+    height: 11em;
+}
+#promo-seccion p{
+    margin-top: 0em;
+    font-family: Sansita;
+    font-size: 1.4em;
+    text-align: center;
+    color: #2F1073;
+    margin-bottom: 2em;
+}
+#promo-seccion img:hover{
+    transform: scale(0.9);
+    border-radius: 1.8em;
+    border: solid .5em #05f2f2;;
+}
+
+/*FOOTER*/
+.footer{
+    width: auto;
+    height: 70px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0px;
+}
+.footer h2{
+    font-size: 30px;
+}
+.footer img{
+    width: 59px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.icon{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+.icon button{
+    border: none;
+    background-color: #C4C4C4;
+    color: black;
+    font-size: 40px;
+    border-radius: 50%;
+
+}
