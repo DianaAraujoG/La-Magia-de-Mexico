@@ -188,6 +188,7 @@ input:focus{
     border-radius: 12px;
     width: 16em;
     height: 11em;
+    transition: 0.3s ;
 }
 #promo-seccion p{
     margin-top: 0em;
